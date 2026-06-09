@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>CONTACTER //Donn.Dev</title>
+</head>
+
+<body class="container">
+    <header>
+        <div class="name" data-aos="fade-down" data-aos-duration="800">
+            <span class="slash">//</span>Donn<span class="slash">.Dev</span>
+        </div>
+        <nav class="hideOnMobile" data-aos="fade-down" data-aos-duration="1200">
+            <a href="index.html" data-aos="fade-down" data-aos-duration="1500">Acceuil</a>
+            <a href="projet.html" data-aos="fade-down" data-aos-duration="1800">Projets</a>
+            <a href="apropos.html" data-aos="fade-d own" data-aos-duration="2400">A propos</a>
+        </nav>
+        <a href="index.html" class="btn btn-primary hideOnMobile" data-aos="fade-down" data-aos-duration="1600">Acceuil <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+            </svg></i></a>
+        <span class="flech showOnMobile" onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+            </svg></i></a></span>
+
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#" id="soti"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                    </svg></i></a></a></li>
+            <li><a href="index.html" data-aos="fade-down" data-aos-duration="1500">Acceuil</a></li>
+            <li><a href="projet.html" data-aos="fade-down" data-aos-duration="1800">Projets</a></li>
+            <li><a href="apropos.html" data-aos="fade-d own" data-aos-duration="2400">A propos</a></li>
+            <li><a href="contact.html">Me contacter</a></li>
+        </ul>
+
+    </header>
+    <section class="contact-section">
+        <!--text anle-->
+        <div class="contact-title" data-aos="zoom-in" data-aos-duration="1000">
+            <span class="bienvenue">Bienvenue</span>
+            <h1>
+                Donnons vie a vos <span class="slash">idées digitales</span> avec
+                une experience <span class="backg">moderne</span> et <span class="backg">professionnelle.</span>
+            </h1>
+        </div>
+        <!--Glass Boites-->
+        <div class="glass-container" data-aos="flip-right" data-aos-duration="1000">
+            <!--bo goch-->
+            <div class="contact-info">
+                <h2>Entrons en contact</h2>
+                <p>
+                    Vous avez un projet, une idée ou une collaboration?<br>
+                    Je suis disponible pour discuter et transformer<br>
+                    vos idées en réalité digitale.
+                </p>
+                <div class="contact-links">
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        WhatsApp
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-phone"></i>
+                        Téléphone
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-envelope"></i>
+                        Gmail
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        LinkedIn
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        Facebook
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                        Instagram
+                    </a>
+                </div>
+            </div>
+            <!--bo dwat-->
+            <div class="contact-form">
+                <h2>Décrivez votre projet.</h2>
+                <form>
+                    <div class="input-box">
+                        <input type="text" placeholder="Nom complet" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" placeholder="Adresse Gmail" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Nom du projet">
+                    </div>
+                    <div class="input-box">
+                        <textarea placeholder="Décrivez votre projet..." required></textarea>
+                    </div>
+                    <button type="submit">
+                        Evoyer
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+
+        <div class="footer-logo">
+            <span>//</span> Donn<span>.Dev</span>
+        </div>
+
+        <p>
+            Développeur Frontend passionné par la création
+            d’expériences web modernes et performantes.
+        </p>
+
+        <div class="footer-socials">
+            <a href="mailto:donndev@gmail.com"><i class="fa-solid fa-envelope"></i> Gmail</a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+            <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+             <a href="#"><i class="fa-brands fa-linkedin-in"></i>LinkedIn</a>
+            <a href="https://wa.me/50942337732"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+            <a href="tel:+50942337732"><i class="fa-solid fa-phone"></i> Telephone</a>
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 Donn.Dev Tous droits réservés.
+        </div>
+
+    </footer>
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector(`.sidebar`)
+            sidebar.style.display = `flex`
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector(`.sidebar`)
+            sidebar.style.display = `none`
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
