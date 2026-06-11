@@ -38,18 +38,6 @@ Ce portfolio met l’accent sur :
 
 ---
 
-📸 Captures
-
-Ajoutez ici vos captures du site :
-
-```md
-/assets/home.png
-/assets/projects.png
-/assets/contact.png
-```
-
----
-
 ## 📂 Structure
 
 ```bash
