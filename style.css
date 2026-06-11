@@ -118,6 +118,7 @@ header .btn:hover {
 
 .hero-content {
   max-width: 550px;
+  
 }
 
 .badge {
@@ -209,6 +210,7 @@ header .btn:hover {
 
 .hero-image {
   position: relative;
+
 }
 
 .hero-image::before {
@@ -907,14 +909,11 @@ font-weight: 500;
   border-radius: 55%;
   object-fit: cover;
   box-shadow: 0 10px 20px rgba(138, 43, 226, 0.5);
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
 }
 
 .hero-image {
   position: relative;
-}
-*{
-  padding-inline: 0.5rem;
 }
 .hero-content p{
   width: 100%;
@@ -985,8 +984,10 @@ font-weight: 500;
 
 @media (max-width: 768px) {
   .hero-container {
+    display: flex;
     flex-direction: column;
     text-align: center;
+    align-content: center;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -1011,9 +1012,19 @@ font-weight: 500;
   .projects-header .btn-outline{
       margin-left: 0.6rem;
     }
+   #soti{
+  background-color:  white;
+  width: max-content;
+  align-self: flex-end;
+}
 }
 /* TELEPHON(ACCEUIL, PROJET, CONTACT)*/
 @media (max-width: 460px) {
+   .hero-container {
+    display: flex;
+    max-width: 100vw;
+    flex-direction: column;
+  }
   body{
     padding-left: 7px;
     padding-right: 7px;
@@ -1065,6 +1076,11 @@ font-weight: 500;
   .project-header{
     display: block;
   }
+#soti{
+  background-color:  white;
+  width: max-content;
+  align-self: flex-end;
+}
 } 
 /* TELEPHONE (apropos)*/
 @media( max-width: 460px){ 
@@ -1098,7 +1114,7 @@ font-weight: 500;
 .about-content{
   display: grid;
   grid-template-columns: 1fr;
-  align-items: center;
+  align-content: center;
   margin-bottom: 50px;
 }
 
@@ -1138,5 +1154,7 @@ font-weight: 500;
 }
 #soti{
   background-color:  white;
+  width: max-content;
+  justify-self   : flex-end;
 }
 }
